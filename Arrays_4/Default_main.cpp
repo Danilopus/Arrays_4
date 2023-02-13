@@ -8,7 +8,6 @@ int Get_Dbl();
 
 int Random_Number_Int(int Range_min, int Range_max) 
 {
-	//srand(time(NULL));
 	return Range_min + rand() % (Range_max - Range_min + 1); 
 }
 
@@ -63,6 +62,8 @@ int main()
 	std::cout << "\n\nAverage temp " << double(Summ)/Size <<"\n\n" << Days_Counter << " days temp under " << User_Input;
 	*/
 	
+
+	//
 	
 	std::cout << "\n\n";
 	system("pause");
